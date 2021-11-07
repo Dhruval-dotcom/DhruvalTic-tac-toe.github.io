@@ -133,12 +133,12 @@ nav{
 	justify-content:center;
 	align-items:center;
 	color:green;
-	font-size:5rem;
+	font-size:2rem;
 	flex-direction:column;
 }
 
 .winning-message button{
-	font-size:3rem;
+	font-size:2rem;
 	background-color:white;
 	color:green;
 	border:1px solid black;
