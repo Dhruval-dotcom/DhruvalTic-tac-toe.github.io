@@ -16,12 +16,15 @@ const cellElements =document.querySelectorAll('[data-cell]')
 const board=document.getElementById('board')
 const winningMessageElement=document.getElementById('winningMessage')
 const restartButton=document.getElementById('restartButton')
+const restartButton2=document.getElementById('restartButton2')
 const winningMessageTextElement=document.querySelector('[data-winning-message-text]')
 
 let circleTurn
 
 startGame()
 restartButton.addEventListener('click',startGame)
+restartButton2.addEventListener('click',startGame)
+
 function startGame(){
 	circleTurn=false
 	

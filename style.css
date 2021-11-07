@@ -6,6 +6,9 @@
 body{
 	margin:0;
 }
+.gameInfo{
+	background-color:#eb00ffd9;
+}
 nav{
     background-color: rgb(37, 9, 37);
     color: aqua;
@@ -148,7 +151,21 @@ nav{
 	cursor:pointer;
 	
 }
-
+#restartButton{
+	font-size:2rem;
+	background-color:white;
+	color:green;
+	border:1px solid black;
+	margin: 5px 10px; 
+	border-radius: 0 20px 0 20px;
+	padding: .25em .5em;
+	cursor:pointer;
+}
+#restartButton:hover{
+	background-color:black;
+	color:white;
+	border-color:white;
+}
 .winning-message button:hover{
 	background-color:black;
 	color:white;
